@@ -1,0 +1,4 @@
+#!/bin/bash
+
+jupyter nbextension enable --py --sys-prefix widgetsnbextension
+jupyter notebook --NotebookApp.iopub_data_rate_limit=2147483647
